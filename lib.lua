@@ -1,7 +1,4 @@
 local lib = {}
-if game.PlaceId~=13822889 then
-    repeat until nil
-end
 
 if game.CoreGui:FindFirstChild'Ancestor'then 
     game.CoreGui.Ancestor:Destroy()
